@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1" apprev="18080" appversion="6.1.13">
+  <input levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2334" levelbias="0.400" overlap="1" leveltilesize="510" height="2334">
+    <level preload="0" predecode="0" width="2334" height="2334"/>
+    <level preload="0" predecode="0" width="1167" height="1167"/>
+    <level preload="0" predecode="0" width="583" height="583"/>
+    <level preload="1" predecode="1" width="291" height="291"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view pannorth="-140" fovmode="0">
+    <start projection="4" tilt="0.842497" pan="21.1646" fov="70"/>
+    <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+    <min tilt="-90" fovpixel="2" pan="0"/>
+    <max scaletofit="1" fovfisheye="360" tilt="90" pan="360" fovstereographic="270" fov="120"/>
+  </view>
+  <userdata description="" longitude="-111.50208950" customnodeid="" copyright="" title="" source="" datetime="" comment="" tags="Panoramas" info="" nodeid="node1" heading="-140" author="" latitude="40.80801537"/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label borderradius="1" background="1" bordercolor="0x000000" wordwrap="1" enabled="1" width="180" borderalpha="1" border="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1" height="20" textcolor="0x000000"/>
+    <polystyle handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
+    <hotspot id="Point01" description="" skinid="ht_image" title="grandparents" tilt="10.1" pan="-310.73" url="images/grandparents.jpg" target=""/>
+  </hotspots>
+  <media>
+    <sound id="Element01" level="1.000" nodechangekeep="0" pansize="10.000" tilt="17.970" loop="1" tiltsize="10.000" field="90.000" startmutedmobile="0" pan="-358.080" ambientlevel="0.100" mode="3">
+      <source url="media/Enterance.mp3"/>
+    </sound>
+  </media>
+  <transition zoomspeed="2" zoomfov="20" type="crossdissolve" enabled="1" zoomafterinfov="90" zoomin="0" softedge="0" blendtime="1" zoomafteroutfov="20" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
+  <autorotate noderandom="1" nodefilter="" startloaded="0" nodedelay="0.00" enabled="1" useanimation="0" speed="0.050" delay="5.00" returntohorizon="0.000"/>
+  <flyintransition enabled="1" speed="2.00"/>
+  <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+  <control speedwheel="1" invertwheel="0" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedwheel="0" rubberband="0" contextvr="1" sensitivity="8" lockedmouse="0" contextfullscreen="1" contextprojections="0" dblclickfullscreen="0" simulatemass="1"/>
+</panorama>
