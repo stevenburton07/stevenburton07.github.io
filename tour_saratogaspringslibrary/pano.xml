@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.1.13" apprev="18080" start="node1">
+  <panorama id="node1">
+    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2270" levelbias="0.400" levelbiashidpi="1.000" overlap="1" height="2270" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="2270" predecode="0" height="2270"/>
+      <level preload="0" width="1135" predecode="0" height="1135"/>
+      <level preload="0" width="567" predecode="0" height="567"/>
+      <level preload="1" width="283" predecode="1" height="283"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="181.425" fovmode="0">
+      <start projection="4" fov="70" tilt="0" pan="0.133333"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovfisheye="360" fovstereographic="270" fov="120" scaletofit="1" tilt="90" pan="360"/>
+    </view>
+    <userdata source="" comment="" heading="181.425" tags="Saratoga Springs Library" description="" author="" datetime="11/18/21 12:55 PM" latitude="40.38626195" copyright="" info="" title="" nodeid="node1" customnodeid="" longitude="-111.91301733"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundcolor="0xffffff" width="180" bordercolor="0x000000" textalpha="1" wordwrap="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" enabled="1" borderalpha="1" height="20" background="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node2}" distance="5.2299" id="Point01" description="" tilt="-1.83" pan="269.387" title="" skinid="ht_node" target="$fwd"/>
+      <hotspot url="images/brandonsanderson.jpg" id="Point02" description="" tilt="-11.03" pan="-342.27" title="brandon" skinid="ht_image" target=""/>
+      <hotspot url="images/percyjackson.jpg" id="Point03" description="" tilt="-9.77" pan="-8.01" title="percyjackson" skinid="ht_image" target=""/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" blendtime="1" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomoutpause="1" type="crossdissolve" zoomafterinfov="90" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
+    <autorotate delay="5.00" noderandom="1" useanimation="0" startloaded="0" nodedelay="0.00" enabled="1" nodefilter="" speed="0.050" returntohorizon="0.000"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" lockedwheel="0" contextvr="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" speedwheel="1" contextfullscreen="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" rubberband="0" simulatemass="1" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2271" levelbias="0.400" levelbiashidpi="1.000" overlap="1" height="2271" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="2271" predecode="0" height="2271"/>
+      <level preload="0" width="1135" predecode="0" height="1135"/>
+      <level preload="0" width="567" predecode="0" height="567"/>
+      <level preload="1" width="283" predecode="1" height="283"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="-82.8054" fovmode="0">
+      <start projection="4" fov="70" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovfisheye="360" fovstereographic="270" fov="120" scaletofit="1" tilt="90" pan="360"/>
+    </view>
+    <userdata source="" comment="" heading="-82.8054" tags="Saratoga Springs Library" description="" author="" datetime="11/18/21 12:58 PM" latitude="40.38626400" copyright="" info="" title="" nodeid="node2" customnodeid="" longitude="-111.91307902"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundcolor="0xffffff" width="180" bordercolor="0x000000" textalpha="1" wordwrap="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" enabled="1" borderalpha="1" height="20" background="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node1}" distance="5.2299" id="Point01" description="" tilt="-2.47" pan="-174.683" title="" skinid="ht_node" target="$fwd"/>
+      <hotspot url="{node3}" distance="6.36437" id="Point02" description="" tilt="-1.42" pan="-274.375" title="" skinid="ht_node" target="$fwd"/>
+    </hotspots>
+    <media>
+      <video mode="3" handcursor="0" clickmode="2" tilt="-19.900" startmutedmobile="0" pansize="10.000" ambientlevel="0.100" nodechangekeep="0" rotz="-2.000" width="800" roty="-7.000" rotx="1.000" level="1.000" height="450" pan="-327.510" tiltsize="10.000" id="Element01" field="90.000" fov="22.950" loop="1" stretch="1.000">
+        <source url="media/Redawn Trailer (Skyward Flight Novella Two).mp4"/>
+      </video>
+    </media>
+    <transition zoomin="0" blendtime="1" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomoutpause="1" type="crossdissolve" zoomafterinfov="90" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
+    <autorotate delay="5.00" noderandom="1" useanimation="0" startloaded="0" nodedelay="0.00" enabled="1" nodefilter="" speed="0.050" returntohorizon="0.000"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" lockedwheel="0" contextvr="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" speedwheel="1" contextfullscreen="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" rubberband="0" simulatemass="1" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2278" levelbias="0.400" levelbiashidpi="1.000" overlap="1" height="2278" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="2278" predecode="0" height="2278"/>
+      <level preload="0" width="1139" predecode="0" height="1139"/>
+      <level preload="0" width="569" predecode="0" height="569"/>
+      <level preload="1" width="284" predecode="1" height="284"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="178.256" fovmode="0">
+      <start projection="4" fov="70" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovfisheye="360" fovstereographic="270" fov="120" scaletofit="1" tilt="90" pan="360"/>
+    </view>
+    <userdata source="" comment="" heading="178.256" tags="Saratoga Springs Library" description="" author="" datetime="11/18/21 1:01 PM" latitude="40.38620680" copyright="" info="" title="" nodeid="node3" customnodeid="" longitude="-111.91307635"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundcolor="0xffffff" width="180" bordercolor="0x000000" textalpha="1" wordwrap="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" enabled="1" borderalpha="1" height="20" background="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node2}" distance="6.36437" id="Point01" description="" tilt="-2.16" pan="180.156" title="" skinid="ht_node" target="$fwd"/>
+      <hotspot url="{node4}" distance="4.65831" id="Point02" description="" tilt="-3.39" pan="89.5185" title="" skinid="ht_node" target="$fwd"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" blendtime="1" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomoutpause="1" type="crossdissolve" zoomafterinfov="90" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
+    <autorotate delay="5.00" noderandom="1" useanimation="0" startloaded="0" nodedelay="0.00" enabled="1" nodefilter="" speed="0.050" returntohorizon="0.000"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" lockedwheel="0" contextvr="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" speedwheel="1" contextfullscreen="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" rubberband="0" simulatemass="1" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2271" levelbias="0.400" levelbiashidpi="1.000" overlap="1" height="2271" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="2271" predecode="0" height="2271"/>
+      <level preload="0" width="1135" predecode="0" height="1135"/>
+      <level preload="0" width="567" predecode="0" height="567"/>
+      <level preload="1" width="283" predecode="1" height="283"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="69.7431" fovmode="0">
+      <start projection="4" fov="70" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovfisheye="360" fovstereographic="270" fov="120" scaletofit="1" tilt="90" pan="360"/>
+    </view>
+    <userdata source="" comment="" heading="69.7431" tags="Saratoga Springs Library" description="" author="" datetime="11/18/21 1:04 PM" latitude="40.38620679" copyright="" info="" title="" nodeid="node4" customnodeid="" longitude="-111.91302135"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label backgroundcolor="0xffffff" width="180" bordercolor="0x000000" textalpha="1" wordwrap="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" enabled="1" borderalpha="1" height="20" background="1" border="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node3}" distance="4.65831" id="Point01" description="" tilt="-4.43" pan="156.536" title="" skinid="ht_node" target="$fwd"/>
+      <hotspot url="images/minecraft.jpg" id="Point02" description="" tilt="25.28" pan="-74.23" title="Minecraft" skinid="ht_image" target=""/>
+      <hotspot url="images/legendofzelda.jpg" id="Point03" description="" tilt="19.97" pan="-138.82" title="Zelda" skinid="ht_image" target=""/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" blendtime="1" blendcolor="0x000000" softedge="0" enabled="1" zoomspeed="2" zoomoutpause="1" type="crossdissolve" zoomafterinfov="90" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
+    <autorotate delay="5.00" noderandom="1" useanimation="0" startloaded="0" nodedelay="0.00" enabled="1" nodefilter="" speed="0.050" returntohorizon="0.000"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" lockedwheel="0" contextvr="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" speedwheel="1" contextfullscreen="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" rubberband="0" simulatemass="1" lockedkeyboardzoom="0"/>
+  </panorama>
+  <masternode>
+    <userdata source="" comment="" heading="0" tags="" description="" author="" datetime="" latitude="" copyright="" info="" title="" nodeid="master" customnodeid="" longitude=""/>
+  </masternode>
+</tour>
