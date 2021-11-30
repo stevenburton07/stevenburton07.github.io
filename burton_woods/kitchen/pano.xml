@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1" appversion="6.1.13" apprev="18080">
+  <input levelingroll="0" height="2266" width="2266" levelingpitch="0" overlap="1" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510">
+    <level height="2266" width="2266" predecode="0" preload="0"/>
+    <level height="1133" width="1133" predecode="0" preload="0"/>
+    <level height="566" width="566" predecode="0" preload="0"/>
+    <level height="283" width="283" predecode="1" preload="1"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view pannorth="35.942" fovmode="0">
+    <start projection="4" pan="25.4453" tilt="-2.36222" fov="68.8392"/>
+    <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+    <min pan="0" fovpixel="2" tilt="-90"/>
+    <max pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="120" fovfisheye="360"/>
+  </view>
+  <userdata author="" longitude="-111.50236979" tags="Panoramas" source="" comment="" customnodeid="" datetime="10/2/21 7:29 PM" latitude="40.80762861" title="" copyright="" description="" info="" nodeid="node1" heading="35.942"/>
+  <hotspots height="20" width="180" wordwrap="1">
+    <label textalpha="1" height="20" bordercolor="0x000000" borderalpha="1" width="180" backgroundcolor="0xffffff" border="1" enabled="1" wordwrap="1" background="1" textcolor="0x000000" backgroundalpha="1" borderradius="1"/>
+    <polystyle mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
+    <hotspot pan="-302.91" skinid="ht_image" title="grandpa1975" id="Point01" tilt="-2.4" url="images/grandpa1975.jpg" target="" description=""/>
+  </hotspots>
+  <media>
+    <sound mode="1" loop="1" tiltsize="10.000" ambientlevel="0.100" pan="-254.310" startmutedmobile="0" id="Element01" pansize="10.000" tilt="-16.240" field="90.000" level="1.000" nodechangekeep="0">
+      <source url="media/Kitchen.mp3"/>
+    </sound>
+  </media>
+  <transition zoomfov="20" zoomin="0" zoomout="0" zoomafterinfov="90" softedge="0" blendtime="1" zoomspeed="2" zoomafteroutfov="20" enabled="1" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000"/>
+  <autorotate nodedelay="0.00" noderandom="1" useanimation="0" startloaded="0" delay="5.00" returntohorizon="0.000" enabled="1" nodefilter="" speed="0.050"/>
+  <flyintransition enabled="1" speed="2.00"/>
+  <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+  <control invertwheel="0" contextprojections="0" sensitivity="8" speedwheel="1" contextvr="1" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" simulatemass="1" invertcontrol="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0"/>
+</panorama>
